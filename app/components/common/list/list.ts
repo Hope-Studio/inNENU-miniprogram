@@ -43,4 +43,8 @@ $Component({
       this.setLogo(value);
     },
   },
+
+  options: {
+    styleIsolation: "shared",
+  },
 });

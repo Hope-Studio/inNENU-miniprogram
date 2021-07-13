@@ -182,4 +182,8 @@ Component({
       this.setData({ actions });
     },
   },
+
+  options: {
+    styleIsolation: "apply-shared",
+  },
 });
